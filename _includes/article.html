@@ -1,0 +1,15 @@
+{% if include.journal %}
+  <a target="_blank" href="{{ include.doi }}" title="arXiv"><span class="username">{{ include.title }}</span></a>
+{% else %}
+  <a target="_blank" href="https://arxiv.org/abs/{{ include.arxiv }}" title="arXiv"><span class="username">{{ include.title }}</span></a>
+{% endif %}
+<br>
+{{ include.authors }}
+{% if include.journal %}
+  <br>
+  <i>{{ include.journal }}</i>  <b>{{ include.volume }}</b>, {{ include.pages }} ({{ include.year }})
+{% else %}
+  <br>
+  <i>arXiv pre-print</i>  ({{ include.year }})
+{% endif %}
+<a target="_blank" href="https://arxiv.org/abs/{{ include.arxiv }}" title="arXiv"><span class="icon icon--arXiv"><i class="ai ai-arxiv ai-1x" style="color:black"></i></span> <span class="username">arXiv:{{ include.arxiv }}</span></a>
