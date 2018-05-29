@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Research"
-permalink: "/research"
+permalink: "/tjoc/research"
 ---
 
 A list of my academic works. They can also be found on [arXiv](https://arxiv.org/search/?searchtype=author&query=Jochym-O%27Connor%2C+T) and [Google Scholar](https://scholar.google.ca/citations?user=eZhvZL4AAAAJ&hl=en).
