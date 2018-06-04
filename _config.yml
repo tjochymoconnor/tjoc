@@ -20,7 +20,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Physicist, quantum information theorist, and post-doctoral fellow at Caltech.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://tomasjoc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 linkedin_username: tjochymoconnor
