@@ -9,10 +9,18 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
 <ul>
   <li>
     {% include article.html
+        title="Fault-tolerant gates via homological product codes"  
+        arxiv="1807.09783"
+        authors="Tomas Jochym-O'Connor"
+        year="2018"
+    %}
+  </li>
+  <li>
+    {% include article.html
         doi="https://doi.org/10.1103/PhysRevX.8.021047"
         title="Disjointness of Stabilizer Codes and Limitations on Fault-Tolerant Logical Gates"  
         arxiv="1710.07256"
-        authors="Tomas Jochym-O’Connor, Aleksander Kubica, Theodore J. Yoder"
+        authors="Tomas Jochym-O'Connor, Aleksander Kubica, Theodore J. Yoder"
         journal="Phys. Rev. X"
         volume="8"
         pages="021047"
