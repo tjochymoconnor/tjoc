@@ -9,10 +9,14 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
 <ul>
   <li>
     {% include article.html
+        doi="https://doi.org/10.22331/q-2019-02-04-120"
         title="Fault-tolerant gates via homological product codes"  
         arxiv="1807.09783"
         authors="Tomas Jochym-O'Connor"
-        year="2018"
+        journal="Quantum"
+        volume="3"
+        pages="120"
+        year="2019"
     %}
   </li>
   <li>
