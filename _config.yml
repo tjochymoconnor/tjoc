@@ -18,7 +18,7 @@ title_html: "<b>Tomas Jochym-O'Connor</b>"
 email: your-email@example.com
 # pitch: This is a pitch.
 description: >- # this means to ignore newlines until "baseurl:"
-  Physicist, quantum information theorist, and post-doctoral fellow at Caltech.
+  Physicist and quantum information theorist at IBM Research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tomasjoc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
