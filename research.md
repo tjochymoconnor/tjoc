@@ -16,7 +16,7 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
         journal="Phys. Rev. A"
         volume="99"
         pages="052351"
-        year="2018"
+        year="2019"
     %}
   </li>
   <li>
