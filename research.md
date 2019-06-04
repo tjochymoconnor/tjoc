@@ -9,6 +9,18 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
 <ul>
   <li>
     {% include article.html
+        doi="https://doi.org/10.1103/PhysRevA.99.052351"
+        title="Advantages of versatile neural-network decoding for topological codes"  
+        arxiv="1802.08680"
+        authors="Nishad Maskara, Aleksander Kubica, Tomas Jochym-O'Connor"
+        journal="Phys. Rev. A"
+        volume="99"
+        pages="052351"
+        year="2018"
+    %}
+  </li>
+  <li>
+    {% include article.html
         doi="https://doi.org/10.22331/q-2019-02-04-120"
         title="Fault-tolerant gates via homological product codes"  
         arxiv="1807.09783"
@@ -28,14 +40,6 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
         journal="Phys. Rev. X"
         volume="8"
         pages="021047"
-        year="2018"
-    %}
-  </li>
-  <li>
-    {% include article.html
-        title="Advantages of versatile neural-network decoding for topological codes"  
-        arxiv="1802.08680"
-        authors="Nishad Maskara, Aleksander Kubica, Tomas Jochym-O'Connor"
         year="2018"
     %}
   </li>
