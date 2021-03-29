@@ -9,6 +9,18 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
 <ul>
   <li>
     {% include article.html
+        doi="https://doi.org/10.1103/PhysRevResearch.3.013118"
+        title="Four-dimensional toric code with non-Clifford transversal gates"  
+        arxiv="2010.02238"
+        authors="Tomas Jochym-O'Connor, Theodore J. Yoder"
+        journal="Phys. Rev. Research"
+        volume="3"
+        pages="013118"
+        year="2021"
+    %}
+  </li>
+  <li>
+    {% include article.html
         doi="https://doi.org/10.1103/PhysRevA.99.052351"
         title="Advantages of versatile neural-network decoding for topological codes"  
         arxiv="1802.08680"
