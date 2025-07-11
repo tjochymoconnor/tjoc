@@ -9,6 +9,30 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
 <ul>
   <li>
     {% include article.html
+        doi="https://doi.org/10.1103/PRXQuantum.4.030301"
+        title="Topological Order, Quantum Codes, and Quantum Computation on Fractal Geometries"  
+        arxiv="2211.03625"
+        authors="Shilin Huang, Tomas Jochym-O'Connor, Theodore J. Yoder"
+        journal="PRX Quantum"
+        volume="4"
+        pages="030301"
+        year="2023"
+    %}
+  </li>
+  <li>
+    {% include article.html
+        doi="https://doi.org/10.1103/PRXQuantum.3.030338"
+        title="Topological Order, Quantum Codes, and Quantum Computation on Fractal Geometries"  
+        arxiv="2108.00018"
+        authors="Guanyu Zhu, Tomas Jochym-O'Connor, Arpit Dua"
+        journal="PRX Quantum"
+        volume="3"
+        pages="030338"
+        year="2022"
+    %}
+  </li>
+  <li>
+    {% include article.html
         doi="https://doi.org/10.1103/PhysRevResearch.3.013118"
         title="Four-dimensional toric code with non-Clifford transversal gates"  
         arxiv="2010.02238"
