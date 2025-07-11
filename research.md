@@ -10,7 +10,7 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
   <li>
     {% include article.html
         doi="https://doi.org/10.1103/PRXQuantum.4.030301"
-        title="Topological Order, Quantum Codes, and Quantum Computation on Fractal Geometries"  
+        title="Homomorphic logical measurements"  
         arxiv="2211.03625"
         authors="Shilin Huang, Tomas Jochym-O'Connor, Theodore J. Yoder"
         journal="PRX Quantum"
