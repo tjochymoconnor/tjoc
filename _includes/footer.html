@@ -52,10 +52,7 @@
       <div class="legal">
       {% if site.cc == null %}©{% endif %}
       {% include _i18n/sitetitle.html %}
-      {% assign oldest_post = site.posts reversed | first %}
-      {% assign oldest = oldest_post.date | date: "%Y" %}
-      {% assign newest = site.time | date: "%Y" %}
-      ({% if oldest != newest %}{{ oldest }}-{% endif %}{{ newest }})
+      {{ site.time | date: "%Y" }}
       {% if site.author and site.author_display %}
         {{ i18n.legal[plang][0] }}
         <a target="_blank" href="{% include _i18n/i18n.html value=site.author_website %}">{{ site.author }}</a> 
