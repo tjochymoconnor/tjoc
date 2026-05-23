@@ -807,6 +807,9 @@
 }
 
 .contact-list .icon {
+  display: flex;
+  align-items: center;
+  line-height: 1;
   flex-shrink: 0;
 }
 
