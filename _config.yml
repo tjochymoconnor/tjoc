@@ -35,7 +35,6 @@ arxiv_username: Jochym-O%27Connor%2C+T
 
 # Build settings
 markdown: kramdown
-theme: academic
 plugins:
   - jekyll-feed
 
