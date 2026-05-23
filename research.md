@@ -27,55 +27,80 @@ A list of my research articles. They can also be found on [arXiv](https://arxiv.
 
     <li>
     {% include article.html
-        title="Adaptive Channel Reshaping for Improved Entanglement Distillation"
-        arxiv="2410.22295"
-        authors="Dina Abdelhadi, Tomas Jochym-O'Connor, Vikesh Siddhu, John Smolin"
-        year="2024"
-        %}
-    </li>
-
-    <li>
-    {% include article.html
+        doi="https://doi.org/10.1103/1g44-jp62"
         title="Universal adapters between quantum LDPC codes"
         arxiv="2410.03628"
         authors="Esha Swaroop, Tomas Jochym-O'Connor, Theodore J. Yoder"
-        year="2024"
+        journal="PRX Quantum"
+        volume="7"
+        pages="010324"
+        year="2026"
         %}
     </li>
 
     <li>
     {% include article.html
-        title="Entanglement sharing across a damping-dephasing channel"
-        arxiv="2405.06231"
-        authors="Vikesh Siddhu, Dina Abdelhadi, Tomas Jochym-O'Connor, John Smolin"
-        year="2024"
+        doi="https://doi.org/10.1103/8kdf-37gp"
+        title="Adaptive Channel Reshaping for Improved Entanglement Distillation"
+        arxiv="2410.22295"
+        authors="Dina Abdelhadi, Tomas Jochym-O'Connor, Vikesh Siddhu, John Smolin"
+        journal="Phys. Rev. Res."
+        volume="8"
+        pages="013018"
+        year="2026"
         %}
     </li>
 
-    <li>
-    {% include article.html
-        title="Encoding a magic state with beyond break-even fidelity"
-        arxiv="2305.13581"
-        authors="Riddhi S. Gupta, Neereja Sundaresan, Thomas Alexander, Christopher J. Wood, Seth T. Merkel, Michael B. Healy, Marius Hillenbrand, Tomas Jochym-O'Connor, James R. Wootton, Theodore J. Yoder, Andrew W. Cross, Maika Takita, Benjamin J. Brown"
-        year="2023"
-        %}
-    </li>
+    
 
     <li>
     {% include article.html
+        doi="https://doi.org/10.1103/PhysRevResearch.6.043007"
         title="Phase diagram of the three-dimensional subsystem toric code"
         arxiv="2305.06389"
         authors="Yaodong Li, C. W. von Keyserlingk, Guanyu Zhu, Tomas Jochym-O'Connor"
-        year="2023"
+        journal="Phys. Rev. Res."
+        volume="6"
+        pages="043007"
+        year="2024"
         %}
     </li>
 
     <li>
     {% include article.html
+        doi="https://10.1109/ISIT57864.2024.10619242"
+        title="Entanglement sharing across a damping-dephasing channel"
+        arxiv="2405.06231"
+        authors="Vikesh Siddhu, Dina Abdelhadi, Tomas Jochym-O'Connor, John Smolin"
+        journal="IEEE International Symposium on Information Theory (ISIT)"
+        pages="1432"
+        year="2024"
+        %}
+    </li>
+
+    <li>
+    {% include article.html
+        doi="https://doi.org/10.1038/s41586-023-06846-3"
+        title="Encoding a magic state with beyond break-even fidelity"
+        arxiv="2305.13581"
+        authors="Riddhi S. Gupta, Neereja Sundaresan, Thomas Alexander, Christopher J. Wood, Seth T. Merkel, Michael B. Healy, Marius Hillenbrand, Tomas Jochym-O'Connor, James R. Wootton, Theodore J. Yoder, Andrew W. Cross, Maika Takita, Benjamin J. Brown"
+        journal="Nature"
+        volume="625"
+        pages="259"
+        year="2024"
+        %}
+    </li>
+
+    <li>
+    {% include article.html
+        doi="https://doi.org/10.22331/q-2023-09-26-1122"
         title="Quantum error correction with fractal topological codes"
         arxiv="2201.03568"
         authors="Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu"
-        year="2022"
+        journal="Quantum"
+        volume="7"
+        pages="1122"
+        year="2023"
         %}
     </li>    
   <li>

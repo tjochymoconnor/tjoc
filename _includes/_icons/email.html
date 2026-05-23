@@ -1,13 +1,22 @@
-<span class="icon icon--email">{% include _icons/email.svg %}</span>
-<script language="JavaScript">
-var username = "tjochymoconnor";
-var hostname = "gmail.com";
-var linktext = username + "@" + hostname ;
+<span class="contact-link">
 
-document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+  <span class="icon icon--email">
+    {% include _icons/email.svg %}
+  </span>
 
-</script>
+  <span class="username">
+    <script language="JavaScript">
+      var username = "tjochymoconnor";
+      var hostname = "gmail.com";
+      var linktext = username + "@" + hostname;
 
-<!--
-<a href="mailto:{{site.email}}" title="Email"><span class="icon icon--email">{% include _icons/email.svg %}</span><span class="username">contact</span></span></a>
--->
+      document.write(
+        "<a href='" +
+        "mail" + "to:" +
+        username + "@" + hostname +
+        "'>" + linktext + "</a>"
+      );
+    </script>
+  </span>
+
+</span>

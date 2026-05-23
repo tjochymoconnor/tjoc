@@ -795,3 +795,16 @@
 .invisible {
   display: none;
 }
+
+/* Contact list fixes */
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: nowrap;
+}
+
+.contact-list li {
+    margin-bottom: 0.35rem;
+}
