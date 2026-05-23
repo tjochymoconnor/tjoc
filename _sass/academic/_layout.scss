@@ -798,14 +798,19 @@
 
 /* Contact list fixes */
 
-.contact-list a,
-.contact-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    white-space: nowrap;
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.3rem;
+  white-space: nowrap;
 }
 
-.contact-list .username {
-    text-transform: none;
+.contact-list .icon {
+  flex-shrink: 0;
+}
+
+.footer-col-2,
+.single-col {
+  min-width: 260px;
 }
