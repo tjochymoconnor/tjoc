@@ -1286,17 +1286,17 @@ form input {
 
 /* Desktop: hide footer contact list */
 .site-footer .contact-list {
-  display: none;
+  display: none !important;
 }
 
 /* Mobile: hide sidebar contact list, show footer contact list */
 @media screen and (max-width: 500px) {
 
   .about-col .contact-list {
-    display: none;
+    display: none !important;
   }
 
   .site-footer .contact-list {
-    display: block;
+    display: block !important;
   }
 }
