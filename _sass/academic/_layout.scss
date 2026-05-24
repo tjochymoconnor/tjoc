@@ -796,32 +796,32 @@
   display: none;
 }
 
-/* Contact list fixes */
+/* Contact alignment fixes */
 
 .contact-list li {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
   gap: 0.35rem;
+  margin-bottom: 0.35rem;
 }
 
 .contact-link {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  white-space: nowrap;
 }
 
-.contact-list .icon {
+.contact-link .icon {
   display: inline-flex;
   align-items: center;
   line-height: 1;
+  flex-shrink: 0;
 }
 
-.contact-list .icon svg {
-  vertical-align: middle;
-}
-
-.contact-list .username {
+.contact-link .username {
   display: inline-flex;
   align-items: center;
-  white-space: nowrap;
+  line-height: 1.2;
 }
