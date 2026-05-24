@@ -1271,3 +1271,10 @@ form input {
 .site-footer .contact-link svg {
   display: block;
 }
+
+.site-footer .contact-link svg,
+.about-col .contact-link svg {
+  vertical-align: middle;
+  position: relative;
+  top: 1px;
+}

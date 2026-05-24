@@ -13,11 +13,11 @@
 
   var email = user + "@" + host;
 
-  var link = document.querySelector(".email-link");
+  var links = document.querySelectorAll(".email-link");
 
-  if (link) {
+  links.forEach(function(link) {
     link.href = "mailto:" + email;
     link.textContent = email;
-  }
+  });
 })();
 </script>
