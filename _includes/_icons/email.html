@@ -1,22 +1,23 @@
 <span class="contact-link">
-
   <span class="icon icon--email">
     {% include _icons/email.svg %}
   </span>
 
-  <span class="username">
-    <script language="JavaScript">
-      var username = "tjochymoconnor";
-      var hostname = "gmail.com";
-      var linktext = username + "@" + hostname;
-
-      document.write(
-        "<a href='" +
-        "mail" + "to:" +
-        username + "@" + hostname +
-        "'>" + linktext + "</a>"
-      );
-    </script>
-  </span>
-
+  <a class="username email-link"></a>
 </span>
+
+<script>
+(function() {
+  var user = "tjochymoconnor";
+  var host = "gmail.com";
+
+  var email = user + "@" + host;
+
+  var link = document.querySelector(".email-link");
+
+  if (link) {
+    link.href = "mailto:" + email;
+    link.textContent = email;
+  }
+})();
+</script>

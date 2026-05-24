@@ -798,25 +798,9 @@
 
 /* Footer contact alignment */
 
-.site-footer .contact-list li {
-  display: flex !important;
-  align-items: center !important;
-}
-
 .site-footer .contact-link {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-}
-
-.site-footer .contact-link .icon {
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-}
-
-.site-footer .contact-link .username {
-  display: inline-flex;
-  align-items: center;
   white-space: nowrap;
 }
