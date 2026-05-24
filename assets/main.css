@@ -14,8 +14,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: "PT Serif", serif;
-  font-size: 1.20rem;
-  line-height: 2rem;
+  font-size: 1.10rem;
+  line-height: 1.85rem;
   font-weight: 400;
   color: #111;
   background-color: #fdfdfd;
@@ -33,12 +33,12 @@ body {
   overflow-x: hidden; }
   @media (max-width: 75em) {
     body {
-      font-size: 1.25rem;
-      line-height: 2rem; } }
+      font-size: 1.15rem;
+      line-height: 1.9rem; } }
   @media (max-width: 45em) {
     body {
-      font-size: 1.1rem;
-      line-height: 2rem; } }
+      font-size: 1rem;
+      line-height: 1.8rem; } }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
