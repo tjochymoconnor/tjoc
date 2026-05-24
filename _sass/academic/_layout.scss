@@ -801,38 +801,27 @@
 .contact-list li {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  margin-bottom: 0.3rem;
-  white-space: nowrap;
+  gap: 0.35rem;
 }
-
-.contact-list .icon {
-  display: flex;
-  align-items: center;
-  line-height: 1;
-  flex-shrink: 0;
-}
-
-.footer-col-2,
-.single-col {
-  min-width: 260px;
-}
-
-/* Contact alignment fixes */
 
 .contact-link {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+}
+
+.contact-list .icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.contact-list .icon svg {
+  vertical-align: middle;
+}
+
+.contact-list .username {
+  display: inline-flex;
+  align-items: center;
   white-space: nowrap;
-}
-
-.contact-link .icon {
-  display: inline-flex;
-  align-items: center;
-}
-
-.contact-link .username {
-  display: inline-flex;
-  align-items: center;
 }
