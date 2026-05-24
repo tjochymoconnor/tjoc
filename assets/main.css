@@ -1276,17 +1276,18 @@ form input {
 
 /* Sidebar/About section */
 .about-col .contact-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  flex-wrap: wrap;
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.35rem;
+  align-items: start;
 }
 
 .about-col .contact-link svg {
   display: block;
+  margin-top: 0.15rem;
 }
 
-/* Consistent vertical spacing */
+/* Consistent spacing */
 .contact-list li {
   margin-bottom: 0.4rem;
 }
