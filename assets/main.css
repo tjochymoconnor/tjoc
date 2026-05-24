@@ -1283,3 +1283,20 @@ form input {
 .contact-list li {
   margin-bottom: 0.4rem;
 }.about-col-1 
+
+/* Desktop: hide footer contact list */
+.site-footer .contact-list {
+  display: none;
+}
+
+/* Mobile: hide sidebar contact list, show footer contact list */
+@media screen and (max-width: 500px) {
+
+  .about-col .contact-list {
+    display: none;
+  }
+
+  .site-footer .contact-list {
+    display: block;
+  }
+}
