@@ -866,7 +866,7 @@ form input {
     .about-col {
       float: none; }
       .about-col .contact-list {
-        text-align: center; }
+        text-align: left; }
         .about-col .contact-list:last-of-type {
           margin-bottom: 25px; } }
 
@@ -903,14 +903,14 @@ form input {
     margin-bottom: 25px; }
 
 .about-col-2 {
-  font-size: 1.15rem;
-  line-height: 1.84rem;
+  font-size: 1.05rem;
+  line-height: 1.75rem;
   width: -webkit-calc(60% - (50px / 4));
   width: calc(60% - (50px / 4)); }
   @media (max-width: 75em) {
     .about-col-2 {
-      font-size: 1.15rem;
-      line-height: 1.84rem; } }
+      font-size: 1.05rem;
+      line-height: 1.75rem; } }
   @media (max-width: 45em) {
     .about-col-2 {
       font-size: 0.95rem;
@@ -1283,14 +1283,3 @@ form input {
 .contact-list li {
   margin-bottom: 0.4rem;
 }.about-col-1 
-
-/* Left-align mobile sidebar contact list */
-
-@media screen and (max-width: 500px) {
-
-  .about-col .contact-list,
-  .about-col .contact-list li {
-    text-align: left !important;
-  }
-
-}
