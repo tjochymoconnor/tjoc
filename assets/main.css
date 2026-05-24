@@ -1260,3 +1260,14 @@ form input {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
+
+.site-footer .contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.site-footer .contact-link svg {
+  display: block;
+}
