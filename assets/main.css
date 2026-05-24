@@ -1263,15 +1263,30 @@ form input {
 
 /* Contact menu alignment fixes */
 
-.site-footer .contact-link,
+/* Footer */
+.site-footer .contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.site-footer .contact-link svg {
+  display: block;
+}
+
+/* Sidebar/About section */
 .about-col .contact-link {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  white-space: nowrap;
+  flex-wrap: wrap;
 }
 
-.site-footer .contact-link svg,
 .about-col .contact-link svg {
   display: block;
+}
+
+/* Consistent vertical spacing */
+.contact-list li {
+  margin-bottom: 0.4rem;
 }
