@@ -817,3 +817,22 @@
 .single-col {
   min-width: 260px;
 }
+
+/* Contact alignment fixes */
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.contact-link .icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact-link .username {
+  display: inline-flex;
+  align-items: center;
+}
