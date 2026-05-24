@@ -1284,3 +1284,12 @@ form input {
   margin-bottom: 0.4rem;
 }.about-col-1 
 
+/* Left-align sidebar contact list on mobile */
+
+@media screen and (max-width: 500px) {
+
+  .about-col .contact-list {
+    text-align: left;
+  }
+
+}
